@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #F3F3E2;
+}
+
+.header {
+    /* width: 100%;
+  height: 200px; */
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #475657;
+    color: #E9E2D0;
+}
+
+.header h1 {
+    padding: 5px;
+    background-color: #55868c;
+    display: inline-block;
+}
+
+.header nav {
+    padding-top: 10px;
+    margin-right: 10px;
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    ;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.navlinks {
+    color: #E9E2D0;
+}
+
+.top-picture {
+    width: 100%;
+    height: 300px;
+    background-image: url("../images/teal.jpeg");
+}
+
+.content {
+    padding: 30px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* .about-me{
+    display: flex;
+    flex-wrap: wrap;
+} */
+.aboutme-text {
+    width: 300px;
+
+}
+.main-details{
+    width: 1200px;
+    padding-left: 20px;
+    border-left: 2px solid #55868c;
+}
+
+.work-text {
+    width: 300px;
+}
+
+.contactme-text {
+    width: 300px;
+}
+
+.contact-options ul {
+    list-style-type: none;
+}
+
+.contactlist{
+    display: flex;
+    
+}
+.contactlist li{
+    padding-right: 40px;
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}

@@ -60,12 +60,13 @@ body {
     width: 100%;
     height: 300px;
     background-image: url("../images/teal.jpeg");
+    display: flex;
 }
 
 .content {
     padding: 30px;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .articles {
@@ -74,11 +75,11 @@ body {
     padding: 20px;
 }
 
-/* .about-me{
-   float: right;
-} */
+
 .article-title{
+    /* flex: 1; */
     width: 300px;
+    border-right: 4px solid #55868c;
 
 }
 .article-title h2{
@@ -86,11 +87,14 @@ body {
     padding-right: 20px;
 }
 .main-details{
-    width: 1200px;
-    padding-left: 20px;
-    border-left: 2px solid #55868c;
+    
+    width: 100%;
+    padding-left: 35px;
+    
 }
-
+.myworks{
+    flex: 0 1 auto; 
+}
 /* .work-text {
     width: 300px;
 } */
@@ -108,15 +112,21 @@ img{
     
     height: 269px;
     object-fit: cover;
+    border: 4px solid #F8990E;
 }
 .main-work{
-    width: 1178px;
+    width: 1165px;
 }
 .other-works{
     width: 550px;
 }
 .section{
     position: relative;
+    padding: 20px 0 0 0;
+}
+.first-section{
+    padding: 0 0 0 0;
+    flex: 0 2 auto;
 }
 .work-description{
     width: max-content;

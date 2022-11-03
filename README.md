@@ -13,9 +13,9 @@ I did the following while creating the portfolio:
 * made the page responsive using media queries
 
 ## Installation
-The URL of the deployed application is:
+The URL of the deployed application is: https://buky-js.github.io/My-Portfolio/
 
-You URL of the GitHub repository containing the code is: 
+You URL of the GitHub repository containing the code is: https://github.com/Buky-js/My-Portfolio
 
 ## Usage
 You can find the code to the application in my Github account

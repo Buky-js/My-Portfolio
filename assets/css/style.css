@@ -10,6 +10,7 @@ body {
     background-color: #F3F3E2;
 }
 
+/* The navigation section */
 .header {
     width: 100%;
 
@@ -52,6 +53,7 @@ body {
 .navlinks {
     color: #E9E2D0;
 }
+
 
 .top-picture {
     max-width: 100%;
@@ -107,7 +109,7 @@ img {
     flex-direction: column;
 
 }
-
+/* The big-sized first application*/
 .firstrow-works {
     display: flex;
     flex-direction: column;
@@ -139,6 +141,7 @@ img {
 
 }
 
+/*The next two application*/
 .secondrow-works {
     display: flex;
     flex-direction: row;
@@ -148,6 +151,7 @@ img {
 
 }
 
+/*The last two applcations*/
 .thirdrow-works {
     display: flex;
     flex-direction: row;
@@ -174,6 +178,7 @@ img {
     color: #F8990E;
 }
 
+/* The page layout changes when screen width is less than 992px*/
 @media screen and (max-width: 992px) {
     .header {
         width: 100%;
@@ -230,6 +235,7 @@ img {
 
 }
 
+/* The page layout changes when screen width is less than 768px*/
 @media screen and (max-width: 768px) {
     .articles {
 
